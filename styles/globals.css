@@ -1,3 +1,5 @@
+/* Reset some default browser styles */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,41 +8,53 @@ body {
   color: #333;
 }
 
+/* Main container */
+
 .container {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
 
+/* Title styling */
+
 h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
+/* Dashboard styling */
 
 .dashboard {
   background: white;
-  padding: 15px;
+  padding: 20px;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
+/* Metric display */
+
 .metric {
-  margin: 5px 0;
+  margin: 8px 0;
   font-size: 18px;
 }
 
+/* Decision buttons */
+
 .buttons {
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 button {
-  padding: 10px 15px;
+  padding: 10px 16px;
   border: none;
   border-radius: 6px;
   background-color: #2563eb;
   color: white;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -48,9 +62,11 @@ button:hover {
   background-color: #1d4ed8;
 }
 
+/* Result message area */
+
 .results {
   margin-top: 20px;
-  padding: 10px;
+  padding: 15px;
   background: #eef2ff;
   border-radius: 6px;
 }
