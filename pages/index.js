@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "../styles/globals.css";
 import Dashboard from "../components/Dashboard"
 import DecisionPanel from "../components/DecisionPanel"
 import { initialState, applyDecision } from "../simulation/engine"
